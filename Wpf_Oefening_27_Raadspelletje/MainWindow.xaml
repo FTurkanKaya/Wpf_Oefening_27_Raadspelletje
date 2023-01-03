@@ -1,0 +1,17 @@
+﻿<Window x:Class="Wpf_Oefening_27_Raadspelletje.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_Oefening_27_Raadspelletje"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox Margin="55,34,0,0" TextWrapping="Wrap" Text="Raad zo snel mogelijk het willekeurig getal tussen 0 en 100" VerticalAlignment="Top" Width="656" Height="42" HorizontalContentAlignment="Stretch" HorizontalAlignment="Left" FontSize="24"/>
+        <Button x:Name="BtnStart" Content="Start" HorizontalAlignment="Left" Margin="324,156,0,0" VerticalAlignment="Top" Height="26" Width="118" Click="BtnStart_Click"/>
+        <Button x:Name="BtnSluiten" Content="Sluiten" HorizontalAlignment="Left" Margin="325,0,0,0" VerticalAlignment="Center" Height="26" Width="117"/>
+        <Image x:Name="Img" HorizontalAlignment="Left" Height="174" Margin="498,156,0,0" VerticalAlignment="Top" Width="173"/>
+        <Viewbox Margin="498,135,89,82"/>
+
+    </Grid>
+</Window>
