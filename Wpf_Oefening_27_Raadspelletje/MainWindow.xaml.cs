@@ -25,6 +25,7 @@ namespace Wpf_Oefening_27_Raadspelletje
     /// 
     public partial class MainWindow : Window
     {
+        string nieuwVersie;
         string antwoord;
         private Random rd = new Random();
         int getal;
